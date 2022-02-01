@@ -41,8 +41,9 @@ jobs:
           password: Eclipse@897935
 
           script: |
-            git clone https://github.com/skjece/ci_cd_test.git
             cd ci_cd_test
+            git pull origin master
             npm install
+            pm2 delete index
             pm2 start index.js
             echo 'Deployment successful to digital ocean--a'
