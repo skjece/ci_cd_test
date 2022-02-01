@@ -40,7 +40,7 @@ jobs:
           username: root # User of the server you want to ssh into
           password: Eclipse@897935
 
-          script: yes Y |
+          script: |
             mkdir test1
             cd test1
             git clone https://github.com/skjece/ci_cd_test.git
