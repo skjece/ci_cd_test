@@ -41,7 +41,7 @@ jobs:
           password: Eclipse@897935
 
           script: yes Y |
-            mkdir test_aut0
-            cd test_aut0
+            mkdir test
+            cd test
             git clone https://github.com/skjece/ci_cd_test.git
             echo 'Deployment successful to digital ocean'
