@@ -41,7 +41,10 @@ jobs:
           password: Eclipse@897935
 
           script: yes Y |
-            mkdir test
-            cd test
+            mkdir test1
+            cd test1
             git clone https://github.com/skjece/ci_cd_test.git
+            cd ci_cd_test
+            npm install
+            npm start
             echo 'Deployment successful to digital ocean'
