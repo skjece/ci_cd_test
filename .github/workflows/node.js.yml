@@ -45,4 +45,4 @@ jobs:
             cd ci_cd_test
             npm install
             pm2 start index.js
-            echo 'Deployment successful to digital ocean'
+            echo 'Deployment successful to digital ocean--a'
